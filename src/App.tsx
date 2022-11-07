@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react"
 import { ChakraProvider, theme, VStack } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import {BrowserRouter as Router, Routes, Route, Navigate, } from "react-router-dom"
+import "./assets/styles/index.css"
 
 const Navbar = lazy(() => import("./components/Navbar"))
 const Home = lazy(() => import("./pages/Home"))
@@ -17,7 +18,7 @@ export const App = () => (
   <ChakraProvider theme={theme}>
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
-        <VStack className="layout" align="stetch">
+        <VStack className="layout" minH="100vh" background="#e9f0ff" align="stetch" p={4}>
           <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
