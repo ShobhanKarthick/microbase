@@ -18,7 +18,7 @@ export const App = () => (
   <ChakraProvider theme={theme}>
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
-        <VStack className="layout" minH="100vh" background="#e9f0ff" align="stetch" p={4}>
+        <VStack className="layout" minH="100vh" background="#e9f0ff" align="stetch" p={8}>
           <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
