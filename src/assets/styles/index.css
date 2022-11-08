@@ -14,3 +14,24 @@ html, body {
 .nav-items-menu {
   font-family: 'Roboto', sans-serif;
 }
+
+.shape-divdider-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shape-divdider-one svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 91px;
+    transform: rotateY(180deg);
+}
+
+.shape-divdider-one .shape-fill {
+    fill: #E9F0FF;
+}
