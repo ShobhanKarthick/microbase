@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { Flex, Text, Spacer, Stack, } from '@chakra-ui/react'
+import { Flex, Text, Spacer, } from '@chakra-ui/react'
 import GreenButton from "../components/GreenButton"
 
 function Navbar() {

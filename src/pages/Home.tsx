@@ -1,8 +1,7 @@
 import React from "react"
-import { VStack, Flex, Text, Input, InputGroup, InputLeftElement, Image, Wrap, WrapItem, Avatar, Heading, Spacer, HStack, } from '@chakra-ui/react'
+import { VStack, Flex, Text, Input, InputGroup, InputLeftElement, Wrap, WrapItem, Avatar, Heading, Spacer, } from '@chakra-ui/react'
 import { SearchIcon, ChevronDownIcon } from '@chakra-ui/icons'
 import { ReactComponent as LandingPageBg } from "../assets/images/landingPageBg.svg"
-import { ReactComponent as ShapeDividerOne } from "../assets/images/shape-divivder-1.svg"
 import GreenBadge from "../components/GreenBadge"
 import GreenButton from "../components/GreenButton"
 
