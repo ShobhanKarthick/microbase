@@ -1,8 +1,15 @@
 import React, { Suspense, lazy } from "react"
-import { ChakraProvider, theme, VStack } from "@chakra-ui/react"
+import { ChakraProvider, extendTheme, VStack } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import {BrowserRouter as Router, Routes, Route, Navigate, } from "react-router-dom"
 import "./assets/styles/index.css"
+
+const theme = extendTheme({
+  fonts: {
+    heading: `'Roboto', 'sans-serif'`,
+    body: `'Roboto', 'sans-serif'`,
+  },
+})
 
 const Navbar = lazy(() => import("./components/Navbar"))
 const Home = lazy(() => import("./pages/Home"))
