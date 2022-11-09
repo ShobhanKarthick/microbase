@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { VStack, Flex, Text, Input, InputGroup, InputLeftElement, Wrap, WrapItem, Avatar, Heading, Spacer, Image } from '@chakra-ui/react'
+import { VStack, Flex, Text, Input, InputGroup, InputLeftElement, Wrap, Avatar, Heading, Spacer, Image } from '@chakra-ui/react'
 import { SearchIcon, ChevronDownIcon, AddIcon } from '@chakra-ui/icons'
 import { ReactComponent as LandingPageBg } from "../assets/images/landingPageBg.svg"
 import HowtoApplyImage from "../assets/images/howToApply.png"

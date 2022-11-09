@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from "react"
 import { ChakraProvider, extendTheme, VStack } from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import {BrowserRouter as Router, Routes, Route, Navigate, } from "react-router-dom"
 import "./assets/styles/index.css"
 
